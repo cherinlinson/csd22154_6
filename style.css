@@ -1,0 +1,33 @@
+﻿body
+{
+    text-align:center;
+    background-color:darkcyan;
+}
+#clock{
+    background-color:darkslategrey;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+}
+    #clock > div {
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: darkolivegreen;
+    }
+    #clock > span {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: darkgrey;
+        display: inline-block;
+    }
+    input{
+        font-size:1.5em;
+        margin:25px;
+        padding:10px;
+    }
+    small{
+        padding-top:5px;
+        font-size:0.8em;
+    }
